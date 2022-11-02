@@ -37,6 +37,7 @@ export default class Personajes extends Component {
         return (
             <div>
                 <NavLink to={"/serie/"+this.props.id} className="btn btn-danger">Volver</NavLink>
+                <br/>
             <table className="table table-bordered table-warning">
             <thead>
                 <tr>
